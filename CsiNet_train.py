@@ -6,7 +6,8 @@ import scipy.io as sio
 import numpy as np
 import math
 import time
-tf.reset_default_graph()
+from tensorflow.python.framework import ops
+ops.reset_default_graph()
 
 envir = 'indoor' #'indoor' or 'outdoor'
 # image params
